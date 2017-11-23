@@ -1,10 +1,28 @@
 html {
   box-sizing: border-box;
+  color: #666;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
   margin: 1.5rem;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+img {
+  padding: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25em;
+}
+
+div {
+  display:inline-block;
+  vertical-align: middle;
+  text-align: left;
+  max-width: 25em;
 }
