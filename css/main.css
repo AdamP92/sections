@@ -15,7 +15,7 @@ body {
 
 img {
   padding: 1em;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   width: 25em;
 }
@@ -25,4 +25,14 @@ div {
   vertical-align: middle;
   text-align: left;
   max-width: 25em;
+}
+
+a {
+  text-align: center;
+  border: 10px;
+  border-color: #333
+}
+
+a:hover {
+  background-color: #666;
 }
