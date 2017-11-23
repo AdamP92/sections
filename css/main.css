@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  color: #eee9de;
+  background-color: #eee9de;
 }
 
 *, *::before, *::after {
@@ -25,6 +25,7 @@ div {
   vertical-align: middle;
   text-align: left;
   max-width: 25em;
+  color: 000;
 }
 
 a {
