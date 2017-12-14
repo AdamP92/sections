@@ -14,10 +14,10 @@ body {
 }
 
 img {
-  padding: 1em;
+  padding: .4em .75em .5em;
   display: inline-block;
   vertical-align: middle;
-  width: 25em;
+  max-width: 25em;
 }
 
 div {
